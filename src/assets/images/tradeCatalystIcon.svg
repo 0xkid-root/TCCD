@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="30" fill="#1a237e" />
+  
+  <!-- TC Symbol -->
+  <text x="18" y="38" 
+        font-family="Arial, sans-serif" 
+        font-weight="bold" 
+        font-size="20" 
+        fill="#ffffff">TC</text>
+  
+  <!-- Spark Symbol -->
+  <path d="M32 15 L35 22 L29 25 L35 28 L29 31 L35 34 L32 40"
+        stroke="#FFD700"
+        stroke-width="2"
+        fill="none"
+        stroke-linecap="round"/>
+</svg>

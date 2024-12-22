@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Square -->
+  <rect width="200" height="200" fill="#1a237e" />
+  
+  <!-- Trading Chart Lines -->
+  <path d="M40 120 L70 90 L100 130 L130 70 L160 100" 
+        stroke="#4CAF50" 
+        stroke-width="6" 
+        fill="none"
+        stroke-linecap="round"/>
+  
+  <!-- Catalyst Spark Symbol -->
+  <path d="M100 40 L110 60 L90 70 L110 80 L90 90 L110 100 L100 120"
+        stroke="#FFD700"
+        stroke-width="4"
+        fill="none"
+        stroke-linecap="round"/>
+  
+  <!-- TC Text -->
+  <text x="70" y="160" 
+        font-family="Arial, sans-serif" 
+        font-weight="bold" 
+        font-size="24" 
+        fill="#ffffff">TC</text>
+</svg>

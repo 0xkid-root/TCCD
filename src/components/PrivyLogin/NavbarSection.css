@@ -1,0 +1,45 @@
+/* Main Div */
+.mainDiv {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Navbar Container */
+.navbar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 10;
+  background: rgba(26, 35, 126, 0.8); /* Semi-transparent deep blue */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Logo Wrapper */
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  height: 40px; /* Adjust size as needed */
+  width: auto;
+}
+
+/* Connect Wallet Wrapper */
+.connect-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+
+.wallet-icon {
+  height: 24px; /* Adjust size as needed */
+  width: auto;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(1
